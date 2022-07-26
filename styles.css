@@ -10,10 +10,10 @@ body {
 }
 
 .container-div {
-    text-align: center;
     margin: auto;
-    max-width: 50vw;
-    min-height: 65vh;
+    margin-top: 3rem;
+    min-height: 60vh;
+    text-align: center;
 }
 
 .heading {
@@ -24,6 +24,7 @@ label, input {
     display: block;
     margin: auto;
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 label {
@@ -31,7 +32,7 @@ label {
 }
 
 #dob-input {
-    width: 40%;
+    width: 30vh;
     padding: 0.4rem 1rem;
     border-radius: 0.3rem;
     border: 2px solid var(--primary-color);
@@ -39,7 +40,7 @@ label {
 }
 
 #number-input {
-    width: 40%;
+    width: 30vh;
     padding: 0.4rem 1rem;
     border-radius: 0.3rem;
     border: 2px solid var(--primary-color);
@@ -64,7 +65,7 @@ label {
 }
 
 .footer {
-    margin-top: 4rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
     text-align: center;
 }
