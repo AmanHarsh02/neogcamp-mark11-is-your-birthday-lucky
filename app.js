@@ -28,7 +28,11 @@ function checkIfBirthdayIsLucky() {
     const sum = calculateSum(dob);
 
     if(dob&&numberInput.value) {
-        compareValues(sum, numberInput.value);
+        if(numberInput.value < 0) {
+            outputText.innerText = "Please be positive & enter a positive number 😀"
+        } else {
+            compareValues(sum, numberInput.value);
+        }
     }
     else {
         outputText.innerText = "Please enter both the fields 😡";
